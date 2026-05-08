@@ -1,1 +1,1 @@
-PASS pytest core_service/tests/test_liveness.py::test_system_reports_alive
+PASS python -m pytest core_service/tests/test_liveness.py::test_system_reports_alive -q
